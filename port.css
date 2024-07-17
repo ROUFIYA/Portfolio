@@ -1,0 +1,169 @@
+.navbar {
+    background-color: gainsboro;
+    color: black;
+    padding: 1rem;
+    position: fixed !important;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand a {
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+
+}
+
+.navbar-toggle {
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navbar-toggle-icon {
+    height: 3px;
+    width: 25px;
+    background-color: black;
+    margin: 4px 0;
+}
+
+.navbar-nav{
+    display: flex;
+    color: black;
+  
+}
+
+.nav-item {
+    color: black;
+    margin-left: 2rem;
+    list-style: none;
+}
+
+.mob-icon{
+    color: black;
+}
+
+.nav-link{
+    color: black;
+    font-size: 1.5rem;
+    padding-top: 200px;
+    text-decoration: none;
+}
+
+/* .navbar-link:hover{
+    text-decoration: underline;
+} */
+/* //responsive style */
+
+
+@media(max-width:700px){
+    .navbar-toggle{
+        display: flex;
+    }
+    .navbar-menu{
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar-menu.active{
+        display: flex;
+    }
+    .navbar-item{
+        margin: 2rem 0;
+        text-align: center;
+       
+    }
+   
+}
+
+
+
+
+ 
+
+
+
+body {
+    color: black;
+    background-size: cover;
+    
+    text-align: center;
+    height: 800px;
+    
+}
+
+.background1 {
+    background-image: url("lap5.avif");
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+
+
+}
+
+.project{
+    background-image: url(lap5.avif);
+    background-size: cover ;
+    height: 100vh;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.about{
+    text-align: justify;
+    background-color: gainsboro;
+    background-size: cover;
+    background-image: url("lap6.jpg");
+    height: 800px;
+    h1{
+        text-align: center;
+    }
+   padding-top: 20px;
+    
+}
+
+
+.contact{
+    background-image: url(lap5.avif);
+    background-size: cover;
+    height: 800px;
+    padding-top: 20px;
+
+}
+
+.skills{
+    background-size: cover;
+    background-image: url("lap6.jpg");
+    padding: 50px;
+    text-align: center;
+  
+}
+
+
+.main h1 p {
+   
+    padding-top: 100px;
+    color: black;
+}
+/* h1 {
+    font-size: 50px;
+} */
+
+.style {
+    height: fit-content;
+    width: fit-content;
+    border: solid red 2px;
+    margin-top: 40px;
+    font-family: ' sans-serif';
+}
+#para{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+}
